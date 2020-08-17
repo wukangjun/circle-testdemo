@@ -1,38 +1,14 @@
-import React, { useEffect } from 'react';
-import { 
-  BrowserRouter as Router,
-  HashRouter,
-  Link,
-  NavLink,
-  Route,
-  MemoryRouter,
-  Prompt,
-  Redirect,
-  StaticRouter,
-  Switch,
-  generatePath,
-  matchPath,
-  useHistory,
-  useLocation,
-  useParams,
-  useRouteMatch,
-  withRouter
- } from 'react-router-dom';
+import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
-import Manager from './pages/Manager'
-import Paint from './pages/Paint'
+import RouterConfiguration from './router'
 
 /**
  * @automating-route: /home
  */
 function App() {
-  useEffect(() => {
-    window.onpopstate = function(hash: PopStateEvent) {
-      console.log(hash)
-    }
-    
-  }, []);
+  
 
   return (
     <Router>
@@ -42,14 +18,7 @@ function App() {
           <p>
             Edit <code>src/App.tsx</code> and save to reload.
           </p>
-          <Switch>
-            <Route path="/m">
-              <Manager />
-            </Route>
-            <Route path="/p">
-              <Paint />
-            </Route>
-          </Switch>
+          <RouterConfiguration />
         </header>
       </div>
     </Router>

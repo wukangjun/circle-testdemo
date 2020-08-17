@@ -1,7 +1,18 @@
-import React from 'react'
+import React, { useCallback } from 'react'
+import { RouteComponentProps } from 'react-router-dom';
 
-export default function Manager() {
+/**
+ * 
+ * @param props
+ * 
+ */
+export default function Manager(props: RouteComponentProps) {
+
+  const navigatePaint = useCallback(() => {
+    props.history.push('/paint');
+  }, [props.history]);
+
   return (
-    <div>manager</div>
+    <div onClick={navigatePaint}>manager</div>
   );
 }
