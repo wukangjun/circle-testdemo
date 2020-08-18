@@ -6,8 +6,8 @@ jobs:
       - image: circleci/node:10
     steps:
       - add_ssh_keys:
-        fingerprints:
-          - "2f:1e:f4:a3:0f:dd:e6:52:29:e8:b2:38:41:60:df:ac"
+          fingerprints:
+            - "2f:1e:f4:a3:0f:dd:e6:52:29:e8:b2:38:41:60:df:ac"
       - checkout
       - restore_cache:
           keys:
@@ -22,9 +22,6 @@ jobs:
       - run:
           name: Build
           command: yarn build
-      - run:
-          name: Deploy
-
 
 workflows:
   version: 2
