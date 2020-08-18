@@ -13,6 +13,6 @@ export default function Manager(props: RouteComponentProps) {
   }, [props.history]);
 
   return (
-    <div onClick={navigatePaint}>manager</div>
+    <div onClick={navigatePaint}>hello world manager page</div>
   );
 }
