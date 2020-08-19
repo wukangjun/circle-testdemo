@@ -16,7 +16,7 @@ function App() {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.tsx</code> and save to reload.
+            兽人永不为奴!!!
           </p>
           <RouterConfiguration />
         </header>
