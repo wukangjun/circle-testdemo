@@ -8,8 +8,6 @@ import RouterConfiguration from './router'
  * @automating-route: /home
  */
 function App() {
-  
-
   return (
     <Router>
       <div className="App">
