@@ -1,0 +1,2 @@
+(this.webpackJsonpautomating=this.webpackJsonpautomating||[]).push([[4],{32:function(e,n,t){"use strict";t.r(n),t.d(n,"default",(function(){return i}));var a=t(0),u=t.n(a);function i(){return u.a.createElement("div",null,u.a.createElement("h2",null,"welcome mine page"))}}}]);
+//# sourceMappingURL=4.ef8cf334.chunk.js.map

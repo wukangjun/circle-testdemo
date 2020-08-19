@@ -1,0 +1,2 @@
+(this.webpackJsonpautomating=this.webpackJsonpautomating||[]).push([[3],{30:function(t,n,a){"use strict";a.r(n),a.d(n,"default",(function(){return o}));var e=a(0),i=a.n(e);function o(t){var n=Object(e.useCallback)((function(){t.history.push("/paint")}),[t.history]);return i.a.createElement("div",{onClick:n},"hello world manager page")}}}]);
+//# sourceMappingURL=3.a84e3776.chunk.js.map

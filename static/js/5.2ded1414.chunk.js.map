@@ -1,0 +1,1 @@
+{"version":3,"sources":["pages/Paint/index.tsx"],"names":["Paint"],"mappings":"yGAAA,mEAEe,SAASA,IACtB,OACE","file":"static/js/5.2ded1414.chunk.js","sourcesContent":["import React from 'react'\n\nexport default function Paint() {\n  return (\n    <div>paint</div>\n  );\n}"],"sourceRoot":""}
