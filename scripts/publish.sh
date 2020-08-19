@@ -22,7 +22,7 @@ else
   git checkout --orphan gh-pages
 fi
 
-cp -a "../${siteSource}/."
+cp -a "../${siteSource}/." .
 
 git add -A
 git commit --allow-empty -m "Deploy to GitHub"
